@@ -10,3 +10,33 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.traffic-light-top {
+    background-color: black;
+    width: 1rem;
+    height: 10rem;
+}
+.traffic-light-bottom {
+    background-color: black;
+}
+
+.light {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: .5rem;
+}
+
+.light.red{
+    background-color: red;
+}
+.light.yellow{
+    background-color: yellow;
+}
+.light.green{
+    background-color: green;
+}
+
+.selected {
+    box-shadow: 0px 0px 57px 19px rgb(245, 232, 232);
+}
