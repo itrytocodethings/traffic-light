@@ -40,3 +40,12 @@
 .selected {
     box-shadow: 0px 0px 57px 19px rgb(245, 232, 232);
 }
+.selected-red {
+    box-shadow: 0px 0px 57px 19px red;
+}
+.selected-yellow {
+    box-shadow: 0px 0px 57px 19px yellow;
+}
+.selected-green {
+    box-shadow: 0px 0px 57px 19px green;
+}
